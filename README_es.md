@@ -1,5 +1,7 @@
 # jTCPfwd_docker
 
+_Agradecimientos a jTCPfwd, [link de la herramienta](https://jtcpfwd.sourceforge.net/)_
+
 ## Uso de las configuraciones en jTCPfwd.jar vs docker-compose.yml
 
 ### El comando jTCPfwd.jar
