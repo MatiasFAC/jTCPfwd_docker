@@ -1,14 +1,14 @@
 # jTCPfwd_docker
 
-## Using configurations in jTCPfwd.jar vs docker-compose.yml
+## Uso de las configuraciones en jTCPfwd.jar vs docker-compose.yml
 
-### The jTCPfwd.jar command
+### El comando jTCPfwd.jar
 
 ```bash
 Java -jar jTCPfwd.jar 1234 172.1.1.12:9999
 ```
 
-### In docker-compose.yml it is
+### En docker-compose.yml es
 
 ```yaml
 command: 
@@ -16,15 +16,15 @@ command:
   - "172.1.1.12:9999"
 ```
 
-If you want to add more redirections, just follow the logic
+Si quieres agregar más redirecciones solo tienes que seguir con la lógica
 
-### The jTCPfwd.jar command
+### El comando jTCPfwd.jar
 
 ```bash
 Java -jar jTCPfwd.jar 1234 172.1.1.12:9999 1235 172.1.1.13:5555
 ```
 
-### In docker-compose.yml it is
+### En docker-compose.yml es
 
 ```yaml
 command: 
