@@ -2,6 +2,10 @@
 
 _Agradecimientos a jTCPfwd, [link de la herramienta](https://jtcpfwd.sourceforge.net/)_
 
+## Links del proyecto
+- [Docker Hub](https://hub.docker.com/r/matias1araya/jtcpfwd)
+- [GitHub](https://github.com/MatiasFAC/jTCPfwd_docker)
+
 ## Uso de las configuraciones en jTCPfwd.jar vs docker-compose.yml
 
 ### El comando jTCPfwd.jar

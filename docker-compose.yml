@@ -1,5 +1,7 @@
 services:
   jtcpfwd:
+    image: jtcpfwd:latest
+    container_name: jtcpfwd
     build:
       context: .  
       dockerfile: Dockerfile
